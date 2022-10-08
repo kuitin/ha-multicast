@@ -1,0 +1,27 @@
+---
+version: 1.0.0
+slug: sample
+name: Hello world
+description: My first real add-on!
+url: https://github.com/home-assistant/hassio-addons/tree/master/samba
+codenotary: notary@home-assistant.io
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+hassio_api: true
+host_network: true
+init: true
+map:
+  - config:rw
+  - ssl:rw
+  - addons:rw
+  - share:rw
+  - backup:rw
+  - media:rw
+startup: services
+ports:
+  5353/udp: 5353
+  5353/udp: 5353

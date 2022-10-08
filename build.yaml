@@ -1,0 +1,9 @@
+build_from:
+  aarch64: ghcr.io/home-assistant/aarch64-hassio-multicast:2022.02.0
+  amd64: ghcr.io/home-assistant/amd64-hassio-multicast:2022.02.0
+  armhf: ghcr.io/home-assistant/armhf-hassio-multicast:2022.02.0
+  armv7: ghcr.io/home-assistant/armv7-hassio-multicast:2022.02.0
+  i386: ghcr.io/home-assistant/i386-hassio-multicast:2022.02.0
+codenotary:
+  signer: notary@home-assistant.io
+  base_image: notary@home-assistant.io

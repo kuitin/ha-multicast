@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# ==============================================================================
+# Start lumticast receiver
+# ==============================================================================
+# bashio::log.info "Run started..." // TODO add lib bashio
+echo "Hello world INIT!"
